@@ -25,7 +25,7 @@ The humidity, the cloudiness, and the wind speed were found to be poorly correla
 The map of the 576 cities identified previously was generated with the pandas module hvplot.
 
 They were then filtered to only retain the ones with a temberature between 21C and 27C (included), a humidity less that 80%, and no cloud coverage. For the 12 cities meeting this criteria on 10/11/2023, we used the Geoapify API to identify the closest hotel within 10km. Eight cities have at least one hotel within the distance specified.
-The maps and the list of hotels are shown in the Jupyter Notebook.
+The maps and the list of hotels are shown in the Jupyter Notebook. The code in the cells must be run for the maps (HoloViews objects) to be displayed.
 
 
 
